@@ -29,7 +29,12 @@ SECRET_KEY = "django-insecure-s@9tgljzi9dzt_aqkd$^_m2@fc@^u0_k(4z8wv+rw*us6hzuk)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'gallery-kef8.onrender.com',
+    'localhost',
+    '127.0.0.1',
+    # Add any other domains or IPs you are using
+]
 
 
 # Application definition
